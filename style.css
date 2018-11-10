@@ -1,0 +1,80 @@
+/*
+ * Theme Name: Flatsome Child
+ * Description: This is a child theme for Flatsome Theme
+ * Author: UX Themes
+ * Template: flatsome
+ * Version: 3.0
+ */
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+a.button.btn-oceanpark {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: url(https://vincity.com/ocean-park/wp-content/themes/vincity-project/assets/images/home/btn-submit-bg-new.png);
+    height: 48px;
+    width: 135px;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+/*----------------------------------------------------- Header --*/
+#header.has-transparent {}
+#header.has-transparent .header-main.nav-dark {
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 1%, rgba(0,0,0,0.5) 39%, rgba(0,0,0,0) 92%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.5) 39%,rgba(0,0,0,0) 92%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 1%,rgba(0,0,0,0.5) 39%,rgba(0,0,0,0) 92%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+}
+/*#logo {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.45);
+    padding: 10px;
+}*/
+/*----------------------------------------------------- Portfolio --*/
+.portfolio-single-page {}
+.portfolio-single-page .page-title {
+	min-height: 500px;
+}
+.portfolio-single-page .page-title .title-bg {}
+.portfolio-single-page .page-title .page-title-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#portfolio-content {
+    /*margin-top: 40px;*/
+}
+.portfolio-single-page .portfolio-summary {
+	/*margin-top: 40px;*/
+}
+
+/*-------------------------------------------------------- Footer --*/
+#footer ul.sidebar-wrapper .widget_nav_menu {
+    margin: 0;
+}
+#footer ul.sidebar-wrapper .widget-title,
+#footer ul.sidebar-wrapper .widgettitle {
+    font-size: 13px;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+#footer ul.sidebar-wrapper .is-divider {
+    display: none;
+}
+#footer ul.sidebar-wrapper ul.menu {}
+#footer ul.sidebar-wrapper ul.menu li {
+    border: 0;
+}
+#footer ul.sidebar-wrapper ul.menu li a {
+    padding: 0;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
